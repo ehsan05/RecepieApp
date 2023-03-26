@@ -11,7 +11,7 @@ app.use('/auth', userRouter);
 app.use('/recepies', recepiesRouter);
 
 mongoose.connect(
-  'mongodb+srv://ehsanwebdev:1234@recepie.mjly1sg.mongodb.net/recepies?retryWrites=true&w=majority'
+  'your url'
 );
 
 app.listen(3001, () => console.log(`App is running on port 3001`));
